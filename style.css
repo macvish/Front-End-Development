@@ -1,0 +1,50 @@
+body {
+	background-color: grey;
+	font-family: cursive;
+}
+h1{
+	color: navy;
+}
+h2{
+	color: lightgreen;
+}
+#color2{
+	color: black;
+}
+h1, h2{
+	text-align: center;
+}
+.container{
+	background-color: pink;
+	margin: 0% 30%;
+}
+.form{
+	margin: 10% 13%;
+}
+.space{
+	margin-bottom: 15px;
+	padding: 10px 10px
+}
+#btnSub{
+	background-color: lightgreen;
+	padding: 10px 10px;
+	margin-left:35%;
+	border-radius: 12px;
+}
+#btnSub:hover{
+	background-color: #4090cc;
+	padding: 12px 12px;
+}
+@media only screen and (min-width: 600px){
+	.container{
+	background-color: lightblue;
+	margin: 0% 30%;
+}
+
+}
+@media only screen and (min-width: 800px){
+	.container{
+	background-color: pink;
+	margin: 0% 40.3%;
+}
+}
